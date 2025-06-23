@@ -1,38 +1,74 @@
-# 🧠 AI Text Summarizer Web App
+<h1 align="center">AI Text Summarizer</h1>
 
-This is a simple full-stack web application that uses **OpenAI's GPT model** to generate concise summaries of long text. Users can input a large paragraph, and the app will return a short, meaningful summary powered by AI.
+<p align="center">
+  <img src="https://socialify.git.ci/vansh-codes/AI-Text-Summarizer-App/image?name=1&owner=1&theme=Dark" alt="AI-Text-Summarizer-App">
+</p>
 
----
-
-## 🚀 Features
-
-- 🔤 Paste any long paragraph or article
-- ✂️ Get a summarized version using GPT-3.5
-- 🌐 Easy-to-use web interface
-- ⚙️ Node.js backend connected to OpenAI API
+<p align="center">
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" height=40px />
+</p>
 
 ---
 
-## 🛠 Tech Stack
+## 🎯 Overview
 
-| Layer     | Tech Used               |
-|-----------|--------------------------|
-| Frontend  | HTML, CSS, JavaScript    |
-| Backend   | Node.js, Express         |
-| LLM       | OpenAI GPT-3.5 via API   |
+**AI Text Summarizer** is a web application that utilizes artificial intelligence to generate concise summaries of lengthy texts. Whether it's an article, research paper, or any long content, this tool helps you quickly grasp the main points.
 
 ---
 
-## 📂 Project Structure
-ai-text-summarizer/
-│
-├── backend/
-│ └── server.js
-│
-├── frontend/
-│ ├── index.html
-│ ├── script.js
-│ └── style.css
-│
-└── .env
+## 📋 Table of Contents
 
+1. [Features](#features)  
+2. [Technology Stack](#technology-stack)  
+3. [Getting Started](#getting-started)  
+4. [Usage](#usage)  
+5. [Web Application](#web-application)  
+6. [Project Structure](#project-structure)  
+7. [License](#license)  
+8. [Contact](#contact)
+
+---
+
+## ✨ Features
+
+- 🔹 Summarizes long text inputs using AI.
+- 🔹 Includes dummy text for easy testing.
+- 🔹 Responsive UI for both desktop and mobile users.
+- 🔹 Displays loading spinner while processing requests.
+
+---
+
+## 💻 Technology Stack
+
+### Frontend:
+- HTML5  
+- CSS3  
+- JavaScript  
+
+### Backend:
+- Node.js  
+- Express.js  
+
+### API:
+- Hugging Face BART Model (for text summarization)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js and npm installed
+- Hugging Face API token
+
+### Setup Instructions
+
+```bash
+# Step 1: Clone the repository
+git clone https://github.com/palak-arora31/AI-Text-Summarizer-Web-App.git
+cd AI-Text-Summarizer-Web-App
+
+# Step 2: Add your Hugging Face API token
+echo ACCESS_TOKEN=your_hugging_face_api_token > .env
+
+# Step 3: Run the backend server
+node index.js
