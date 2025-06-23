@@ -1,0 +1,38 @@
+# 🧠 AI Text Summarizer Web App
+
+This is a simple full-stack web application that uses **OpenAI's GPT model** to generate concise summaries of long text. Users can input a large paragraph, and the app will return a short, meaningful summary powered by AI.
+
+---
+
+## 🚀 Features
+
+- 🔤 Paste any long paragraph or article
+- ✂️ Get a summarized version using GPT-3.5
+- 🌐 Easy-to-use web interface
+- ⚙️ Node.js backend connected to OpenAI API
+
+---
+
+## 🛠 Tech Stack
+
+| Layer     | Tech Used               |
+|-----------|--------------------------|
+| Frontend  | HTML, CSS, JavaScript    |
+| Backend   | Node.js, Express         |
+| LLM       | OpenAI GPT-3.5 via API   |
+
+---
+
+## 📂 Project Structure
+ai-text-summarizer/
+│
+├── backend/
+│ └── server.js
+│
+├── frontend/
+│ ├── index.html
+│ ├── script.js
+│ └── style.css
+│
+└── .env
+
